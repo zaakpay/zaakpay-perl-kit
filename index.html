@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Zaakpay Perl Kit README</title>
+</head>
+
+<body>
+<div style=" width:750px; margin:30px auto;">
+<div style=" font:normal 14px/22px Arial, Helvetica, sans-serif; color:#32454A; text-align:left;">
+<strong style="font:bold 16px/22px Arial, Helvetica, sans-serif;">Hello Dear User,</strong><br />
+
+This is a ReadMe for the Zaakpay Perl kit.<br />
+
+
+<b>TRANSACT API :</b> This is the primary API used to perform a transaction.<br />
+It makes use of the following files.<br />
+<b><a href="test_merchant_input.html" style="color:#00D9FF; font:bold 15px/22px Arial, Helvetica, sans-serif;">test_merchant_input.html</a></b> : This is the HTML file which takes input from user & posts data.<br />
+
+<b>posttozaakpay.pl</b> : This is the file which accepts input, sanitizes it & posts it to the TRANSACT API.<br />
+
+<b>response.pl</b> : The TRANSACT API completes the transaction & redirects user to this file.<br /><br />
+
+
+
+ To get going with Perl Kit :<br />
+ <ol><li>
+ Enter the Merchant Identifier in the test_merchant_input.html file</li>
+<li>Enter the secret key in both the response.pl and posttozaakpay.pl</li>
+<li>Now,you are good to go with transactions</li></ol>
+<br />
+<b>Note :</b>
+<ol>
+<li>To perform test transaction , try mode =0</li>
+</ol>
+.</div>
+</div>
+</body>
+</html>
